@@ -23,36 +23,37 @@
 		<v-container
 			class="justify-center text-center w-auto mb-16 overflow-visible"
 		>
-			<v-container class="w-50">
+			<v-container class="w-75">
 				<p class="text-h3" style="font-weight: 500">Educations</p>
-				<v-card class="text-center mt-16 mb-16" variant="outlined">
-					<v-card-title><b class="text-h5">Hight School №2</b> </v-card-title>
-					<p style="color: grey">Sep 2012 - Jun 2023</p>
-					<v-card-text class="text-h6" style="font-weight: 300">
-						<p>
-							In 9th grade I already started learning programming and creating
-							my first Minecraft mod. I solved problems in physics and
-							mathematics, as well as studying history. In 11th grade I decided
-							to devote myself entirely to Java development.
-						</p>
-					</v-card-text>
-				</v-card>
-				<v-card
-					class="text-center overflow-x-auto mt-16 mb-16"
-					variant="outlined"
-				>
-					<v-card-title><b class="text-h5">BePro IT Academy</b> </v-card-title>
-					<p style="color: grey">Oct 2022 - Feb 2023</p>
-					<v-card-text class="text-h6" style="font-weight: 300">
-						<p>
-							In these courses I finally learned the core of Java. I learned how
-							to create web applications on Spring framework and desktop
-							applications on JavaFX. At the end of the course I received a
-							certificate certifying that I have learned the basics of Java
-							programming.
-						</p>
-					</v-card-text>
-				</v-card>
+				<v-container class="w-75">
+					<v-card class="text-center mt-16 mb-16" variant="outlined">
+						<v-card-title><b class="text-h5">Hight School №2</b> </v-card-title>
+						<p style="color: grey">Sep 2012 - Jun 2023</p>
+						<v-card-text class="text-h6" style="font-weight: 300">
+							<p>
+								In 9th grade I already started learning programming and creating
+								my first Minecraft mod. I solved problems in physics and
+								mathematics, as well as studying history. In 11th grade I
+								decided to devote myself entirely to Java development.
+							</p>
+						</v-card-text>
+					</v-card>
+					<v-card class="text-center w-auto mt-16 mb-16" variant="outlined">
+						<v-card-title
+							><b class="text-h5">BePro IT Academy</b>
+						</v-card-title>
+						<p style="color: grey">Oct 2022 - Feb 2023</p>
+						<v-card-text class="text-h6" style="font-weight: 300">
+							<p>
+								In these courses I finally learned the core of Java. I learned
+								how to create web applications on Spring framework and desktop
+								applications on JavaFX. At the end of the course I received a
+								certificate certifying that I have learned the basics of Java
+								programming.
+							</p>
+						</v-card-text>
+					</v-card>
+				</v-container>
 				<v-divider></v-divider>
 			</v-container>
 		</v-container>
@@ -67,8 +68,8 @@
 					<v-row class="justify-center">
 						<v-col
 							xs="1"
-							sm="1"
-							md="2"
+							sm="6"
+							md="5"
 							lg="3"
 							xl="3"
 							v-for="project in projects"
@@ -124,7 +125,7 @@
 
 		<!-- Contacts -->
 		<v-container class="text-center w-auto mb-16 justify-center">
-			<v-container class="w-50">
+			<v-container class="w-75">
 				<v-divider></v-divider>
 				<v-card class="mt-16 mb-16" variant="outlined">
 					<v-card-title class="text-h3 mt-16">Contacts</v-card-title>
@@ -188,7 +189,7 @@ export default defineComponent({
 			// must use .value
 			switch (name.value) {
 				case 'xs':
-					return 220
+					return 150
 				case 'sm':
 					return 240
 				case 'md':
