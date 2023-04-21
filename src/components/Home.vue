@@ -1,7 +1,7 @@
 <template>
 	<v-main>
 		<!-- About -->
-		<v-container class="text-center mt-16 w-50">
+		<v-container class="text-center w-50 mt-6">
 			<v-divider></v-divider>
 			<v-avatar rounded="4" :size="size" class="mt-16">
 				<v-img src="https://i.ibb.co/VTw5bLP/galiev.jpg" alt="galiev"></v-img>
