@@ -1,7 +1,7 @@
 <template>
 	<v-main>
 		<!-- About -->
-		<v-container class="text-center w-50 mt-6">
+		<v-container class="text-center w-70 mt-6">
 			<v-divider></v-divider>
 			<v-avatar rounded="4" :size="size" class="mt-16">
 				<v-img src="https://i.ibb.co/VTw5bLP/galiev.jpg" alt="galiev"></v-img>
@@ -23,9 +23,9 @@
 		<v-container
 			class="justify-center text-center w-auto mb-16 overflow-visible"
 		>
-			<v-container class="w-75">
+			<v-container class="w-70">
 				<p class="text-h3" style="font-weight: 500">Educations</p>
-				<v-container class="w-75">
+				<v-container class="w-auto">
 					<v-card class="text-center mt-16 mb-16" variant="outlined">
 						<v-card-title><b class="text-h5">Hight School №2</b> </v-card-title>
 						<p style="color: grey">Sep 2012 - Jun 2023</p>
@@ -99,7 +99,7 @@
 									<v-btn
 										class="mt-5 ml-5 mr-5"
 										prepend-icon="mdi-github"
-										:href="'https://modrinth.com/mod/' + project.source_code"
+										:href="'' + project.source_url"
 										target="blank"
 										>Source</v-btn
 									>
@@ -125,7 +125,7 @@
 
 		<!-- Contacts -->
 		<v-container class="text-center w-auto mb-16 justify-center">
-			<v-container class="w-75">
+			<v-container class="w-70">
 				<v-divider></v-divider>
 				<v-card class="mt-16 mb-16" variant="outlined">
 					<v-card-title class="text-h3 mt-16">Contacts</v-card-title>
