@@ -202,8 +202,7 @@ export default defineComponent({
 					return 540
 			}
 
-			return undefined
-		})
+    })
 		return { size }
 	},
 })
