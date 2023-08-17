@@ -6,7 +6,7 @@
 			<v-avatar rounded="4" :size="size" class="mt-16">
 				<v-img src="https://i.ibb.co/VTw5bLP/galiev.jpg" alt="galiev"></v-img>
 			</v-avatar>
-			<v-container class="text-center mt-16" :size="size">
+			<v-container class="text-center mt-16 w-50" :size="size">
 				<p class="text-h3" style="font-weight: 500">Hi! My name is Vazir.</p>
 				<p class="text-h5 mt-6 mb-16" style="font-weight: 300">
 					I am 17 years old. I'm a Java developer from Tashkent for more than 2
@@ -20,13 +20,12 @@
 		<!-- End About -->
 
 		<!-- Education -->
-		<v-container
-			class="justify-center text-center w-auto mb-16 overflow-visible"
-		>
+      <v-container class="text-center mb-16 overflow-visible">
 			<v-container class="w-70">
 				<p class="text-h3" style="font-weight: 500">Educations</p>
+      </v-container>
 				<v-container class="w-auto">
-					<v-card class="text-center mt-16 mb-16" variant="outlined">
+					<v-card class="text-center mt-16 mb-16 w-50" variant="outlined">
 						<v-card-title><b class="text-h5">Hight School №2</b> </v-card-title>
 						<p style="color: grey">Sep 2012 - Jun 2023</p>
 						<v-card-text class="text-h6" style="font-weight: 300">
@@ -39,8 +38,8 @@
 						</v-card-text>
 					</v-card>
 					<v-card class="text-center w-auto mt-16 mb-16" variant="outlined">
-						<v-card-title
-							><b class="text-h5">BePro IT Academy</b>
+						<v-card-title>
+              <b class="text-h5">BePro IT Academy</b>
 						</v-card-title>
 						<p style="color: grey">Oct 2022 - Feb 2023</p>
 						<v-card-text class="text-h6" style="font-weight: 300">
@@ -55,7 +54,6 @@
 					</v-card>
 				</v-container>
 				<v-divider></v-divider>
-			</v-container>
 		</v-container>
 		<!-- End Education -->
 
