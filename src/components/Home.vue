@@ -3,18 +3,31 @@
 		<!-- About -->
 		<v-container class="text-center w-70 mt-6">
 			<v-divider></v-divider>
-			<v-avatar rounded="4" :size="size" class="mt-16">
+
+
+      <div class="mt-16 mb-6 text-h3 font-weight-medium">
+        <p>About Me</p>
+      </div>
+
+      <v-container class="mb-16 align-center">
+        <p class="text-h5 text-right font-weight-light w-25 mt-16 position-absolute">
+          <strong>Name: </strong>
+          <br>
+          Vadirov Vazir
+          <br>
+          <strong>Age: </strong>
+          <br>
+          17 years old
+          <br>
+          <strong>Location: </strong>
+          <br>
+          Innopolis, Russia
+          <br>
+        </p>
+			<v-avatar rounded="4" :size="size">
 				<v-img src="https://i.ibb.co/VTw5bLP/galiev.jpg" alt="galiev"></v-img>
 			</v-avatar>
-			<v-container class="text-center mt-16 w-50" :size="size">
-				<p class="text-h3" style="font-weight: 500">Hi! My name is Vazir.</p>
-				<p class="text-h5 mt-6 mb-16" style="font-weight: 300">
-					I am 17 years old. I'm a Java developer from Tashkent for more than 2
-					years. My main areas are web development, modding in FabricMC and
-					creating desktop applications in JavaFX. I like to solve all kinds of
-					new tasks for me and I approach them very responsibly.
-				</p>
-			</v-container>
+      </v-container>
 			<v-divider></v-divider>
 		</v-container>
 		<!-- End About -->
@@ -187,17 +200,17 @@ export default defineComponent({
 			// must use .value
 			switch (name.value) {
 				case 'xs':
-					return 150
+					return 20
 				case 'sm':
-					return 240
+					return 40
 				case 'md':
-					return 340
+					return 140
 				case 'lg':
-					return 340
+					return 240
 				case 'xl':
-					return 440
+					return 340
 				case 'xxl':
-					return 540
+					return 440
 			}
 
     })
