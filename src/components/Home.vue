@@ -24,9 +24,10 @@
           Innopolis, Russia
           <br>
         </p>
-			<v-avatar rounded="4" :size="size">
+			<v-avatar rounded="4" :size="size" class="position-relative">
 				<v-img src="https://i.ibb.co/VTw5bLP/galiev.jpg" alt="galiev"></v-img>
 			</v-avatar>
+        <p class="text-h5 font-weight-light w-25 mt-16 position-absolute">dd</p>
       </v-container>
 			<v-divider></v-divider>
 		</v-container>
@@ -38,7 +39,7 @@
 				<p class="text-h3" style="font-weight: 500">Educations</p>
       </v-container>
 				<v-container class="w-auto">
-					<v-card class="text-center mt-16 mb-16 w-50" variant="outlined">
+					<v-card class="text-center mt-16 mb-16 w-auto" variant="outlined">
 						<v-card-title><b class="text-h5">Hight School №2</b> </v-card-title>
 						<p style="color: grey">Sep 2012 - Jun 2023</p>
 						<v-card-text class="text-h6" style="font-weight: 300">
