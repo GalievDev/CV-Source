@@ -17,7 +17,7 @@
           <br>
           <strong>Age: </strong>
           <br>
-          17 years old
+          18 years old
           <br>
           <strong>Location: </strong>
           <br>
@@ -27,7 +27,6 @@
 			<v-avatar rounded="4" :size="size" class="position-relative">
 				<v-img src="https://i.ibb.co/VTw5bLP/galiev.jpg" alt="galiev"></v-img>
 			</v-avatar>
-        <p class="text-h5 font-weight-light w-25 mt-16 position-absolute">dd</p>
       </v-container>
 			<v-divider></v-divider>
 		</v-container>
